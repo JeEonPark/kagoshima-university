@@ -32,7 +32,10 @@ public class RGBImageViewer extends JFrame {
 		
 		container.add( panel );
 		
+//		panel.saveHist(this);
+		
 	}
+
 
 	public Image load( ){
 		Image image = null;
